@@ -1,10 +1,10 @@
 import { Meta, Story } from "@storybook/react";
-import { Stepper } from "./Stepper";
+import { Table } from "./Table";
 
 export default {
-  title: "Components/Stepper",
+  title: "Components/Table",
 } as Meta;
 
-const Template: Story = () => <Stepper />;
+const Template: Story = () => <Table />;
 
 export const Default = Template.bind({});
