@@ -9,4 +9,5 @@ export * from "./Card";
 export * from "./Dropdown";
 export * from "./HeaderNavigation";
 export * from "./SideMenu";
+export * from "./Stepper";
 export * from "./Tabs";
