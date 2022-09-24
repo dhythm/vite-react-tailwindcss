@@ -1,5 +1,6 @@
 import { FC } from "react";
 
+// This Switch is not from HyperUI because Toggle in HyperUI doesn't work.
 export const Switch: FC = () => (
   <label
     htmlFor="default-toggle"
