@@ -18,7 +18,6 @@ npm install -D @storybook/addon-postcss
 ```sh
 npm install
 
-npm run dev
 npm run storybook
 ```
 

@@ -9,22 +9,15 @@ const Template: ComponentStory<typeof Alert> = ({ variant }) => (
   <Alert variant={variant}>Component is shown!</Alert>
 );
 
-export const Success = Template.bind({});
-Success.args = {
+export const Default = Template.bind({});
+Default.argTypes = {
+  variant: {
+    options: ["success", "warning", "alert", "info"],
+    control: {
+      type: "radio",
+    },
+  },
+};
+Default.args = {
   variant: "success",
-};
-
-export const Warning = Template.bind({});
-Warning.args = {
-  variant: "warning",
-};
-
-export const Error = Template.bind({});
-Error.args = {
-  variant: "alert",
-};
-
-export const Info = Template.bind({});
-Info.args = {
-  variant: "info",
 };
