@@ -1,4 +1,4 @@
-import { ComponentStory, Meta, Story } from "@storybook/react";
+import { ComponentStory, Meta } from "@storybook/react";
 import { Alert } from "./Alert";
 
 export default {
